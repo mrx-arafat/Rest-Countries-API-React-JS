@@ -4,3 +4,9 @@
   margin: 10px;
   color: white;
 }
+
+.country img {
+  margin: 20px;
+  height: 250px;
+  width: 400px;
+}
