@@ -1,5 +1,5 @@
 .country {
-  background-color: lightgray;
+  background-color: rgb(102, 94, 94);
   border: 1px solid gold;
   margin: 10px;
   color: white;
@@ -9,4 +9,9 @@
   margin: 20px;
   height: 250px;
   width: 400px;
+}
+
+.country-name {
+  font-size: 40px;
+  font-weight: 500;
 }

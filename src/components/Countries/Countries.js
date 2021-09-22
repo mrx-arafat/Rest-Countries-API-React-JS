@@ -18,8 +18,8 @@ const Countries = () => {
       {countries.map((country) => (
         <Country
           country={country}
-          name={country.name}
-          capital={country.capital}
+          // name={country.name}
+          // capital={country.capital}
         ></Country>
       ))}
     </div>
