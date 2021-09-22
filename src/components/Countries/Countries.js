@@ -14,12 +14,12 @@ const Countries = () => {
 
   return (
     <div>
-      <h1>All Countries are Here</h1>
+      <h1>Hello From All Countries </h1>
       <h3>Total Countries: {countries.length}</h3>
 
       <div className="countries-container">
         {countries.map((country) => (
-          <Country country={country}></Country>
+          <Country key={country.capital} country={country}></Country>
         ))}
       </div>
     </div>

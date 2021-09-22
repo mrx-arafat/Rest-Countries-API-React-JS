@@ -1,8 +1,10 @@
 .country {
   background-color: rgb(102, 94, 94);
   border: 1px solid gold;
+  border-radius: 10px;
   margin: 10px;
   color: white;
+  box-shadow: 5px 5px 10px gray;
 }
 
 .country img {
