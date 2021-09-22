@@ -12,24 +12,24 @@ function App() {
 }
 
 // function Countries() {
-//   const [countries, setCountries] = useState([]);
+// const [countries, setCountries] = useState([]);
 
-//   useEffect(() => {
-//     fetch("https://restcountries.eu/rest/v2/all")
-//       .then((res) => res.json())
-//       .then((data) => setCountries(data));
-//   }, []);
+// useEffect(() => {
+//   fetch("https://restcountries.eu/rest/v2/all")
+//     .then((res) => res.json())
+//     .then((data) => setCountries(data));
+// }, []);
 
-//   return (
-//     <div>
-//       <h1>All Countries are Here</h1>
-//       <h3>Total Countries: {countries.length}</h3>
+// return (
+//   <div>
+//     <h1>All Countries are Here</h1>
+//     <h3>Total Countries: {countries.length}</h3>
 
-//       {countries.map((country) => (
-//         <Country name={country.name} capital={country.capital}></Country>
-//       ))}
-//     </div>
-//   );
+//     {countries.map((country) => (
+//       <Country name={country.name} capital={country.capital}></Country>
+//     ))}
+//   </div>
+// );
 // }
 
 // function Country(props) {

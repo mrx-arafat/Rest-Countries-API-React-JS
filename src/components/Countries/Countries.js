@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Country from "../Country/Country";
 
 const Countries = () => {
+  const [countries, setCountries] = useState([]);
+
+  useEffect(() => {
+    fetch("https://restcountries.eu/rest/v2/all")
+      .then((res) => res.json())
+      .then((data) => setCountries(data));
+  }, []);
+
   return (
     <div>
-      <h1>hello from countries</h1>
+      <h1>All Countries are Here</h1>
+      <h3>Total Countries: {countries.length}</h3>
+
+      {countries.map((country) => (
+        <Country name={country.name} capital={country.capital}></Country>
+      ))}
     </div>
   );
 };
