@@ -23,11 +23,14 @@ const displayCountries = (countries) => {
 
 //country array destructure kore pathano hobe
 const getCountryHTML = (country) => {
+  const { name, capital, flags } = country;
   return `
   <div> 
   
-  <h2>hello ${country.name.common} </h2>
-  <h2>capital ${country.capital} </h2>
+  <h2>hello ${name.common} </h2>
+  <h2>capital ${capital} </h2>
+ <img src="${flags.png}" alt="">
+
   </div>
   `;
 };
