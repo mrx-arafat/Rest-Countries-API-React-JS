@@ -9,6 +9,8 @@ const displayCountries = (countries) => {
 
   const countryHTML = countries.map((country) => getCountryHTML(country));
 
+  const containerDiv = document.getElementById("container");
+  containerDiv.innerHTML = countryHTML[0];
   console.log(countryHTML[0]);
 };
 
@@ -17,7 +19,7 @@ const getCountryHTML = (country) => {
   <div> 
   
   <h2>hello ${country.name.common} </h2>
-  <h2>hello ${country.capital} </h2>
+  <h2>capital ${country.capital} </h2>
   </div>
   `;
 };
