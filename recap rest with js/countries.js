@@ -5,3 +5,4 @@ const loadCountries = () => {
 };
 
 loadCountries();
+console.log("oii");
