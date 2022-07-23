@@ -5,7 +5,7 @@ const loadCountries = () => {
 };
 
 const displayCountries = (countries) => {
-  console.log(countries);
+  console.log(countries[0].name.common);
 };
 
 loadCountries();
