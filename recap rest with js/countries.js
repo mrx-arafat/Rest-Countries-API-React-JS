@@ -21,6 +21,7 @@ const displayCountries = (countries) => {
   containerDiv.innerHTML = countryHTML.join(" ");
 };
 
+//country array destructure kore pathano hobe
 const getCountryHTML = (country) => {
   return `
   <div> 
